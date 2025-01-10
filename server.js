@@ -11,11 +11,11 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'home.html'));
 });
 
-app.get('/about', (req, res) => {
+app.get('/About', (req, res) => {
     res.sendFile(path.join(__dirname, 'about.html'));
 });
 
-app.get('/contact', (req, res) => {
+app.get('/Contact', (req, res) => {
     res.sendFile(path.join(__dirname, 'contact.html'));
 });
 
